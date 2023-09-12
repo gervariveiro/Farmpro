@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Farmpro/static/css/main.4ac58e50.css",
-    "main.js": "/Farmpro/static/js/main.20e9d03a.js",
+    "main.css": "/Farmpro/static/css/main.3656d58f.css",
+    "main.js": "/Farmpro/static/js/main.59fb5fcc.js",
     "static/media/campo.mp4": "/Farmpro/static/media/campo.efbe82e6cb9585cf1f66.mp4",
     "static/media/quesoydulce.jpg": "/Farmpro/static/media/quesoydulce.0d7bece1fb22e25ca12f.jpg",
     "static/media/fa-solid-900.ttf": "/Farmpro/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -18,11 +18,11 @@
     "static/media/fa-v4compatibility.ttf": "/Farmpro/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/Farmpro/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Farmpro/index.html",
-    "main.4ac58e50.css.map": "/Farmpro/static/css/main.4ac58e50.css.map",
-    "main.20e9d03a.js.map": "/Farmpro/static/js/main.20e9d03a.js.map"
+    "main.3656d58f.css.map": "/Farmpro/static/css/main.3656d58f.css.map",
+    "main.59fb5fcc.js.map": "/Farmpro/static/js/main.59fb5fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac58e50.css",
-    "static/js/main.20e9d03a.js"
+    "static/css/main.3656d58f.css",
+    "static/js/main.59fb5fcc.js"
   ]
 }
