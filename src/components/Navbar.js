@@ -6,11 +6,12 @@ import {
   MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
-  MDBNavbarLink,
   MDBNavbarToggler,
   MDBNavbarBrand,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
+
 
 export default function MenuNav() {
 
@@ -20,7 +21,7 @@ export default function MenuNav() {
     <>
       <MDBNavbar expand='lg' className='navbar'>
         <MDBContainer fluid>
-          <MDBNavbarBrand href='/' className='navBrand'>
+          <MDBNavbarBrand href='/Farmpro' className='navBrand'>
             <img src={FarmLogo} alt='' width='90' height='90' className='ms-5'/>
           </MDBNavbarBrand>
 
@@ -38,18 +39,24 @@ export default function MenuNav() {
           <MDBCollapse show={showNavColor} navbar>
             <MDBNavbarNav className='me-auto mb-2 mb-lg-0 navItems'>
               <MDBNavbarItem className='active box-1'>
-                <MDBNavbarLink aria-current='page' href='/' className='btn btn-one'>
-                  Home
-                </MDBNavbarLink>
+                <Link to='/' className='btn btn-one d-flex flex-column justify-content-center navLink'>
+                    Home
+                </Link>
+              </MDBNavbarItem>
+              <MDBNavbarItem >
+                  <Link to='/About' className='btn btn-one d-flex flex-column justify-content-center navLink'>
+                    About
+                  </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='/About' className='btn btn-one'>About us</MDBNavbarLink>
+                <Link to='/Products' className='btn btn-one d-flex flex-column justify-content-center align-items-center navLink'>
+                    Products
+                </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='/Products' className='btn btn-one'>Products</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='/Contact' className='btn btn-one'>Contact</MDBNavbarLink>
+                <Link to='/Contact' className='btn btn-one d-flex flex-column justify-content-center navLink align-items-center'>
+                    Contact
+                </Link>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>

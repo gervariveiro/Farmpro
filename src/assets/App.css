@@ -34,6 +34,12 @@ body {
   color: white !important;
 }
 
+.navLink {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 
 .dropdown-toggle::after {
   display: none !important;
